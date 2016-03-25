@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/listImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#000"
+        android:scaleType="centerInside" />
+
+   <ScrollView 
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+     >    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/listImage"
+    	 android:layout_marginTop="28dp" >
+        <TableRow 
+              android:id="@+id/tableRow0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          >
+
+         </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" >
+
+             <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/meta_team1" />
+
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:text="Shailendra Singh"
+                 android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:textColor="#1565F0"
+                 android:textStyle="bold" />
+
+             <ImageButton
+                 android:id="@+id/imageButton2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/phone325" />
+
+           <RelativeLayout>
+            </RelativeLayout>
+ 
+           </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_margin="10dp">
+               <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/meta_team2" />
+
+               <TextView
+                   android:id="@+id/textView3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:text="Arpit Garg"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:textColor="#1565F0"
+                   android:textStyle="bold" />
+
+               <ImageButton
+                   android:id="@+id/imageButton3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/phone325" />
+        
+        </TableRow>
+  <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_margin="10dp">
+               <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/meta_team3" />
+
+               <TextView
+                   android:id="@+id/textView4"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:text="Saransh Gupta"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:textColor="#1565F0"
+                   android:textStyle="bold" />
+
+               <ImageButton
+                   android:id="@+id/imageButton1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/phone325" />
+        
+        </TableRow>
+          <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" >
+               <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/meta_team4" />
+
+               <TextView
+                   android:id="@+id/textView5"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:text="Niharika Yadav"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:textColor="#1565F0"
+                   android:textStyle="bold" />
+
+               </TableRow>
+        
+    <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" >
+               <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/meta_team5" />
+
+               <TextView
+                   android:id="@+id/textView6"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:text="Rajat Sahu"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:textColor="#1565F0"
+                   android:textStyle="bold" />
+
+               <ImageButton
+                   android:id="@+id/imageButton4"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/phone325" />
+
+        </TableRow>
+          <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" >
+               <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/meta_team6" />
+
+               <TextView
+                   android:id="@+id/textView7"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:text="Mukul Sharma"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:textColor="#1565F0"
+                   android:textStyle="bold" />
+
+               <ImageButton
+                   android:id="@+id/imageButton5"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/phone325" />
+
+        </TableRow>
+                  <TableRow
+            android:id="@+id/tableRow77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_margin="10dp">
+        
+        </TableRow>
+          <TableRow
+            android:id="@+id/tableRow47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" >
+               </TableRow>
+          
+    
+                </TableLayout>
+        </ScrollView>
+ 
+
+</RelativeLayout>
